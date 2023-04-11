@@ -7,32 +7,62 @@ html {
 html, body {
   height: 100%;
   margin: 0;
+  text-align: center;
 }
 
-body {
-  display: grid;
-  place-items: center;
-}
 
-#converter {
-  width: 15rem;
+#converter, #currency {
   padding: 2rem;
   border-radius: .5rem;
-  box-shadow: 0 0 2rem 0 #0001;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
-#converter input, #converter select {
+#converter input, #converter select, #currency input, #currency select {
   font-family: inherit;
   font-size: inherit;
   margin-block-end: 1rem;
   text-align: center;
-  width: 10rem;
+  width: 9rem;
 }
 
-#converter #output-temp {
+#converter #output-temp, #currency #output-currency {
   font-size: 2rem;
   font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0909b5;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
 }
