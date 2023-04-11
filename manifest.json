@@ -1,8 +1,8 @@
 {
     "lang": "en-us",
-    "name": "Temperature converter",
-    "short_name": "Temperature converter",
-    "description": "A basic temperature converter application that can convert to and from Celsius, Kelvin, and Fahrenheit",
+    "name": "Converter App",
+    "short_name": "Converter App",
+    "description": "A basic PWA that has conversion capabilities. It can convert to and from Celsius, Kelvin, and Fahrenheit. And to and from Euro, Dolar and British pound.",
     "start_url": "/",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
