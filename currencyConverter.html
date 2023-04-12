@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="converter.css">
-    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
-    <title>Currency converter</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Converter App</title>
 </head>
 <body>
+
+    <div class="imgC"></div>
 
     <ul>
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="temperatureConverter.html">Temperature converter</a></li>
-        <li><a href="currencyConverter.html">Currency converter</a><li>
+        <li><a href="currencyConverter.html">Currency converter</a>
     </ul>
 
-    <div style="padding-left: 16px">
+    <div class="tit">
         <h2>Currency converter</h2>
     </div>
 
     <form id="currency">
         <label for="input-currency">Currency</label>
-        <input type="text" id="input-currency" name="input-currency" value="1"/>
+        <input type="text" id="input-currency" name="input-currency" value="1" />
         <label for="input-type">from</label>
         <select id="input-type" name="input type">
             <option value="e" selected>EUR</option>

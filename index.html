@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="converter.css">
-    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
-    <title>Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Converter App</title>
 </head>
 <body>
+
+    <div class="imgH"></div>
 
     <ul>
         <li><a class="active" href="index.html">Home</a></li>
@@ -17,17 +19,21 @@
         <li>
     </ul>
 
-    <div>
-
+    <div class="tit">
         <h2>Home</h2>
-        <p>Welcome to my very simple PWA app.
-        <br /> It has a couple of converthing features but all in all is very bland.
-        <br /> I will try and imporev it in the future</p>
-
     </div>
 
-    <img src="icon512.png"/>
-    <img src="iconC.png"/>
+        <p>
+            Welcome to my very simple PWA app.
+            <br /> It has a couple of converting features but all in all is very bland.
+            <br /> I will try and imporev it in the future.
+        </p>
+
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        }
+    </script>
 
 
 

@@ -31,6 +31,6 @@ self.addEventListener('fetch', event => {
         } catch (e) {
           // The network failed.
         }
-    }
+      }
   })());
 });
