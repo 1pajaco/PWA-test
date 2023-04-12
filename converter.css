@@ -25,7 +25,7 @@ html, body {
   font-size: inherit;
   margin-block-end: 1rem;
   text-align: center;
-  width: 9rem;
+  width: 12rem;
 }
 
 #converter #output-temp, #currency #output-currency {
@@ -33,7 +33,7 @@ html, body {
     font-weight: bold;
     color: #0909b5;
     margin-block-end: 1rem;
-    width: 9rem;
+    width: 12rem;
 }
 
 .tit {
