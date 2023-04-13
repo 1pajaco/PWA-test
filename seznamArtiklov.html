@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="converter.css">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Seznam artiklov</title>
+
+    <style>
+        #seznamAtriklov {
+
+            float: left;
+            text-align: start;
+
+        }
+        li, ul {
+            float: left;
+            text-align: start;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="temperatureConverter.html">Temperature converter</a>
+        <a href="currencyConverter.html">Currency converter</a>
+        <a href="seznamArtiklov.html">Seznam artiklov</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div id="seznamAtriklov"></div>
+
+    <script>
+        /*function seznam(){
+            fetch('items.json')
+                .then(response => response.json())
+                .then(data => appendData(data));
+            }
+
+            function appendData(data) {
+                var mainContainer = document.getElementById("seznamAtriklov");
+
+               for (var i = 0; i < data.Rows.length; i++) {
+                    var div = document.createElement("div");
+
+                    div.innerHTML = 'ID: ' + data.Rows[i].ItemId +
+                                    '<br> Title: ' + data.Rows[i].Title +
+                                    '<br> Unit of mesurment: ' + data.Rows[i].UnitOfMesurement +
+                                    '<br> Item Type: ' + data.Rows[i].ItemType +
+                                    '<hr>';
+
+                    mainContainer.appendChild(div);
+
+                    var div1 = document.createElement("div1");
+                    for(var key in data.Rows[i].VatRate){
+
+                        div1.innerHTML = data.Rows[i].VatRAte[key];
+                        div1.appendChild(div1)
+
+                    }
+
+                }
+
+            }
+           seznam();*/
+
+    function showList(){
+        fetch("items.json")
+            .then(response => response.json())
+            .then(data => createList(data));
+        }
+
+        function createList(data) {
+            const mainUL = document.createElement('ol');
+            for (var i = 0; i < data.Rows.length; i++) {
+                const RowsLI = document.createElement('li')
+                                          RowsLI.innerHTML = 'ItemID: ' + data.Rows[i].ItemId +
+                                          '<br> Title: ' + data.Rows[i].Title +
+                                          '<br> Code: ' + data.Rows[i].Code +
+                                          '<br> UnitOfMeasurement: ' + data.Rows[i].UnitOfMeasurement;
+           
+            
+        // create list for VatRate
+        const VatRateUL = document.createElement('ul');
+        for (var key in data.Rows[i].VatRate) {
+            const VatRateLI = document.createElement('li');
+            VatRateLI.innerHTML = key + ': ' + data.Rows[i].VatRate[key];
+            VatRateUL.appendChild(VatRateLI);
+        }
+
+        // create list for Currency
+        const CurrencyUL = document.createElement('ul');
+        for (var kek in data.Rows[i].Currency) {
+            const CurrencyLI = document.createElement('li');
+            CurrencyLI.innerHTML = kek + ': ' + data.Rows[i].Currency[kek];
+            CurrencyUL.appendChild(CurrencyLI);
+        }
+
+        // create list for RevenueAccountDomestic
+        const RevenueAccountDomesticUL = document.createElement('ul');
+        for (var kek in data.Rows[i].RevenueAccountDomestic) {
+            const RevenueAccountDomesticLI = document.createElement('li');
+            RevenueAccountDomesticLI.innerHTML = kek + ': ' + data.Rows[i].RevenueAccountDomestic[kek];
+            RevenueAccountDomesticUL.appendChild(RevenueAccountDomesticLI);
+        }
+
+        // create list for RevenueAccountOutsideEU
+        const RevenueAccountOutsideEUUL = document.createElement('ul');
+        for (var kek in data.Rows[i].RevenueAccountOutsideEU) {
+            const RevenueAccountOutsideEULI = document.createElement('li');
+            RevenueAccountOutsideEULI.innerHTML = kek + ': ' + data.Rows[i].RevenueAccountOutsideEU[kek];
+            RevenueAccountOutsideEUUL.appendChild(RevenueAccountOutsideEULI);
+        }
+
+        // create list for RevenueAccountEU
+        const RevenueAccountEUUL = document.createElement('ul');
+        for (var kek in data.Rows[i].RevenueAccountEU) {
+            const RevenueAccountEULI = document.createElement('li');
+            RevenueAccountEULI.innerHTML = kek + ': ' + data.Rows[i].RevenueAccountEU[kek];
+            RevenueAccountEUUL.appendChild(RevenueAccountEULI);
+        }
+
+        // create list for StocksAccount
+        const StocksAccountUL = document.createElement('ul');
+        for (var kek in data.Rows[i].StocksAccount) {
+            const StocksAccountLI = document.createElement('li');
+            StocksAccountLI.innerHTML = kek + ': ' + data.Rows[i].StocksAccount[kek];
+            StocksAccountUL.appendChild(StocksAccountLI);
+        }
+        // append VatRate list to RowsLI
+        RowsLI.appendChild(VatRateUL);
+
+        // append Currency list to RowsLI
+        RowsLI.appendChild(CurrencyUL);
+
+        // append RevenueAccountDomestic list to RowsLI
+        RowsLI.appendChild(RevenueAccountDomesticUL);
+
+        // append RevenueAccountOutsideEU list to RowsLI
+        RowsLI.appendChild(RevenueAccountOutsideEUUL);
+
+        // append RevenueAccountEU list to RowsLI
+        RowsLI.appendChild(RevenueAccountEUUL);
+
+        // append StocksAccount list to RowsLI
+        RowsLI.appendChild(StocksAccountUL);
+        
+        //append Rows list to mainUL
+        mainUL.appendChild(RowsLI);
+        }
+        // append mainUL to body
+        document.body.appendChild(mainUL);
+    }
+    showList();
+
+    </script>
+
+</body>
+</html>

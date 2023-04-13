@@ -12,28 +12,35 @@
 
     <div class="imgH"></div>
 
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="temperatureConverter.html">Temperature converter</a></li>
-        <li><a href="currencyConverter.html">Currency converter</a>
-        <li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="temperatureConverter.html">Temperature converter</a>
+        <a href="currencyConverter.html">Currency converter</a>
+        <a href="seznamArtiklov.html">Seznam artiklov</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
 
     <div class="tit">
         <h2>Home</h2>
     </div>
 
-        <p>
-            Welcome to my very simple PWA app.
-            <br /> It has a couple of converting features but all in all is very bland.
-            <br /> I will try and imporev it in the future.
-        </p>
+    <p>
+        Welcome to my very simple PWA app.
+        <br /> It has a couple of converting features but all in all is very bland.
+        <br /> I will try and improve it in the future.
+    </p>
 
     <script>
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js', { scope: '/' });
-        }
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
     </script>
+    
+    <script src="topnav.js"></script>
+
 
 
 

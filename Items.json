@@ -1,0 +1,369 @@
+{
+    "Rows": [
+        {
+            "ItemId": 168238,
+            "Title": "Artikel01",
+            "Code": "",
+            "UnitOfMeasurement": "ME",
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 36,
+                "Name": "S",
+                "ResourceUrl": "/api/orgs/108350/vatrates/36"
+            },
+            "Price": 1.111111,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 170085,
+            "Title": "Artikel02",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 0,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 170087,
+            "Title": "Artikel 02",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 11,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 220097,
+            "Title": "Artikel 01 & Artikel 01",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 1.123456,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 220098,
+            "Title": "Artikel 02",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 0,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 298867,
+            "Title": "Blago",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 1.21,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 298868,
+            "Title": "Predplacilo",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "A",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 0,
+            "Currency": null,
+            "RevenueAccountDomestic": null,
+            "RevenueAccountOutsideEU": null,
+            "RevenueAccountEU": null,
+            "StocksAccount": null,
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 299800,
+            "Title": "Artikel",
+            "Code": "1",
+            "UnitOfMeasurement": "kom",
+            "ItemType": "B",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 123456.123456,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614741,
+                "Name": "Prihodki od prodaje trgovskega blaga na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614741"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615062,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615062"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615063,
+                "Name": "Prihodki od prodaje trgovskega blaga na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615063"
+            },
+            "StocksAccount": {
+                "ID": 7614682,
+                "Name": "Vrednost blaga po obračunih dobaviteljev",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614682"
+            },
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 456103,
+            "Title": "xxx",
+            "Code": "706201360",
+            "UnitOfMeasurement": null,
+            "ItemType": "S",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 0,
+            "Currency": {
+                "ID": 7,
+                "Name": "EUR",
+                "ResourceUrl": "/api/orgs/108350/currencies/7"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614735,
+                "Name": "Prihodki od prodaje storitev na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614735"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615064,
+                "Name": "Prihodki od prodaje storitev na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615064"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615065,
+                "Name": "Prihodki od prodaje storitev na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615065"
+            },
+            "StocksAccount": null,
+            "ProductGroup": null
+        },
+        {
+            "ItemId": 526815,
+            "Title": "x",
+            "Code": null,
+            "UnitOfMeasurement": null,
+            "ItemType": "S",
+            "VatRate": {
+                "ID": 30,
+                "Name": "N",
+                "ResourceUrl": "/api/orgs/108350/vatrates/30"
+            },
+            "Price": 10,
+            "Currency": {
+                "ID": 16,
+                "Name": "USD",
+                "ResourceUrl": "/api/orgs/108350/currencies/16"
+            },
+            "RevenueAccountDomestic": {
+                "ID": 7614735,
+                "Name": "Prihodki od prodaje storitev na domačem trgu",
+                "ResourceUrl": "/api/orgs/108350/accounts/7614735"
+            },
+            "RevenueAccountOutsideEU": {
+                "ID": 7615064,
+                "Name": "Prihodki od prodaje storitev na trgu izven EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615064"
+            },
+            "RevenueAccountEU": {
+                "ID": 7615065,
+                "Name": "Prihodki od prodaje storitev na trgu EU",
+                "ResourceUrl": "/api/orgs/108350/accounts/7615065"
+            },
+            "StocksAccount": null,
+            "ProductGroup": null
+        }
+    ],
+    "TotalRows": 66,
+    "CurrentPageNumber": 1,
+    "PageSize": 10
+}
