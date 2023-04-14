@@ -154,3 +154,22 @@ html, body {
         text-align: left;
     }
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    border: 1px dashed black;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button {
+    height: 130px;
+    width: 130px;
+}
